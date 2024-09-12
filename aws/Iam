@@ -1,0 +1,30 @@
+ 
+
+IAM stands for Identity and Access Management. It's a framework of policies and technologies that ensures the right individuals access the right resources at the right times for the right reason. 
+
+Types of Policies: 
+
+AWS Managed Policies 
+
+ Inline Policies 
+
+AWS Managed policies:
+
+ There  multiple aws managed policies are available in IAM .These policies are managed by AWS . 
+                                                
+Inline Policies: 
+These are the customer managed policies. 
+
+Steps to create User in IAM: 
+
+Go to IAM dashboard and click on users. 
+
+Click on create user and enter the name of user. 
+
+While creating user we can select the “provide user access to aws console” option or we can create this access after creation of user. 
+
+Click on next and select the attach policies directly. 
+
+Select the services which we want to give the access to the user in the permissions policies. 
+
+Click on create use
